@@ -1,0 +1,19 @@
+html{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(90deg,rgb(15, 106, 134), #118dd4);
+}
+.container{
+    display: grid;
+    grid-template-columns:  1fr  1fr  1fr ;
+    grid-template-rows: 1fr  1fr  1fr;
+    
+}
+.item1{
+    color:white;
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+    text-align: center;
+}
